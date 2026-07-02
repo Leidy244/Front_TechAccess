@@ -79,7 +79,7 @@ export class RegAccesoComponent implements OnInit {
   tableColumns = [
     { key: 'usuarioNombre', label: 'Usuario', type: 'text' },
     { key: 'documento', label: 'Documento', type: 'text' },
-    { key: 'horaFecha', label: 'Fecha/Hora', type: 'date' },
+    { key: 'horaFecha', label: 'Fecha', type: 'date' },
     { key: 'tipoAcceso', label: 'Tipo', type: 'text' },
     { key: 'observacion', label: 'Observación', type: 'text' }
   ];
